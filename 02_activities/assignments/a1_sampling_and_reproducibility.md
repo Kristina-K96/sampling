@@ -10,10 +10,18 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Kristina Knox
 
 ```
-Please write your explanation here...
+First, random sampling occurs when the model is determining which people to infect by using the np.random.choice() function. The sample size is 100 (10% of the total population) and the sample frame is the entire list of people, which is 1000.
+
+Random sampling also occurs for primary contact tracing by using the np.rando.rand() function. The sample size is 20 people (10% of all the infected people), and the sampling frame is all of the infect people (100 people).
+
+For the secondary contact tracing step, conditional sampling or cluster-based sampling is occuring. The sample size would be the number of individuals at event with 2 or more primary traced cases, and the sampling frame would be the number of individuals that attended the "flagged" events.
+
+When the code is run with 1000 repitions, two distributions are generated: one for the proportion of indections attributed to weddings and one for the proportion of traced cases attributed to weddings. This code reproduces Whiby's findings for the true proportion of people infected from the weddings. The distributions in the blog post show both the true and observed proporitions of people infected.
+
+When I change the number of repititions in the simulation to 100, there is  increased variability of the distribution. Additionaly, there is an issue with the reproducibility, such that the shape and means of the distributions differ when run multiple times. In order to make the code reproducible, I added a random seed before running the simulation. Adding a seed ensures that the sequence of random numbers is the same across runs, so that I will get the same graph with every run.
 
 ```
 
