@@ -13,8 +13,7 @@ Alter the code so that it is reproducible. Describe the changes you made to the 
 # Author: Kristina Knox
 
 ```
-
-First random sampling occurs when the model is determining which people to infect by using the np.random.choice() function. The sample size is 100 (10% of the total population) and the sample frame is the entire list of people, which is 1000.
+First, random sampling occurs when the model is determining which people to infect by using the np.random.choice() function. The sample size is 100 (10% of the total population) and the sample frame is the entire list of people, which is 1000.
 
 Random sampling also occurs for primary contact tracing by using the np.rando.rand() function. The sample size is 20 people (10% of all the infected people), and the sampling frame is all of the infect people (100 people).
 
