@@ -83,20 +83,43 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-1. Sample type: Questionnarie ?
+1. Sample type: 
+Stratified design employing probability sampling. The stratification is done geographically by province/census metropolitan area, and then each strata is randomly sampled.
+
 2. Sample size: 20,950
-3. Target population: All people 15 years old and older living in the 10 provinces in Canada, who are not living in institutions.
-4. Sampling frame: One or several telephone numbers associated with a single address based on the Census and administrative sources from Statictics Canada's dwelling frame.
-5. Survey mode(s): The survey is delivered either through an electronic questionnaire or over the telephone, with an average time of 44 minutes to complete.
-6. Timeline: September to December of 2018
-7. Response rate: 41.8 %
-8. Weights: Each person in the sample represents a larger number of people in the population, and the weights are adjusted to ensure that characteristics of the sample represent the population.
-9. Data processing: Data processing uses the Social Survey Processing Environment (SSPE), which is a software program that follows a series of steps to process the data. 
-10. Cleaning, imputation, etc: Edits were made to the data both automatically and manually to ensure respondents followed the correct path and fix off-path situation. Error detection was done through the CATI system, which allowed a valid range of codes for each question and identified any out-of-range values. 
-11. Sources of error
-12. Limitations, known biases, etc
+
+3. Target population: 
+All people 15 years old and older living in the 10 provinces in Canada, who are not living in institutions.
+
+4. Sampling frame: 
+One or several telephone numbers associated with a single address based on the Census and administrative sources from Statictics Canada's dwelling frame.
+
+5. Survey mode(s): 
+The survey is delivered either through an electronic questionnaire or over the telephone, with an average time of 44 minutes to complete.
+
+6. Timeline: 
+September to December of 2018
+
+7. Response rate: 
+41.8 %
+
+8. Weights: 
+Each person in the sample represents a larger number of people in the population, and the weights are adjusted to ensure that characteristics of the sample represent the population.
+
+9. Data processing: 
+Data processing uses the Social Survey Processing Environment (SSPE), which is a software program that follows a series of steps to process the data. 
+
+10. Cleaning, imputation, etc: 
+Edits were made to the data both automatically and manually to ensure respondents followed the correct path and fix off-path situation. Error detection was done through the CATI system, which allowed a valid range of codes for each question and identified any out-of-range values. Imputations were made using a score function to determine the "nearest" donor record to fill in the missing information.
+
+11. Sources of error: 
+Sampling error, inaccurate and incomplete answers, imperfect coverage of the population, and non-response.
+
+12. Limitations, known biases, etc:
+Non-response bias was a known limitation and was reduced by invovling a series of adjustments to the survey weights to account for non-response as much as possible.
+
 13. Link to documentation and any additional sources used
-https://www150.statcan.gc.ca/n1/pub/89-653-x/2013002/05-eng.htm#a52 Q9
+https://www150.statcan.gc.ca/n1/pub/89-653-x/2013002/05-eng.htm#a52
 ```
 
 ## Rubric
