@@ -40,25 +40,37 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
+
+You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to determine what factors affect turnover rates for entry and low-level employees at the company. A random stratified sampling strategy will be used to sample from employees at entry and low levels. 
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: Current employees at the company.
+Sampling frame: entry- and low-level employees
+Sampling units: 
+Observational units: the number of total respondents
+Sampling strategy: Random stratified sampling
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
+1. What level is your current role? (drop down with options)
+2. What deparment is your role in? (drop dowm with options)
+3. How long have you been in your current role?
+    a. 0 - 6 months
+    b. 6 months - 1 year
+    c. 1 - 3 years
+    d. 3 years +
+4. How satisfied with your current role are you?
+    
+5. 
 6. write your question here... (optional)
 7. write your question here... (optional)
 8. write your question here... (optional)
@@ -71,7 +83,20 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: Questionnarie ?
+2. Sample size: 20,950
+3. Target population: All people 15 years old and older living in the 10 provinces in Canada, who are not living in institutions.
+4. Sampling frame: One or several telephone numbers associated with a single address based on the Census and administrative sources from Statictics Canada's dwelling frame.
+5. Survey mode(s): The survey is delivered either through an electronic questionnaire or over the telephone, with an average time of 44 minutes to complete.
+6. Timeline: September to December of 2018
+7. Response rate: 41.8 %
+8. Weights: Each person in the sample represents a larger number of people in the population, and the weights are adjusted to ensure that characteristics of the sample represent the population.
+9. Data processing: Data processing uses the Social Survey Processing Environment (SSPE), which is a software program that follows a series of steps to process the data. 
+10. Cleaning, imputation, etc: Edits were made to the data both automatically and manually to ensure respondents followed the correct path and fix off-path situation. Error detection was done through the CATI system, which allowed a valid range of codes for each question and identified any out-of-range values. 
+11. Sources of error
+12. Limitations, known biases, etc
+13. Link to documentation and any additional sources used
+https://www150.statcan.gc.ca/n1/pub/89-653-x/2013002/05-eng.htm#a52 Q9
 ```
 
 ## Rubric
