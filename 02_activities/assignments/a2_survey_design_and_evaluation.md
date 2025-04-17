@@ -40,30 +40,76 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#1`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of this survey is to better understand the reasons behind the high turnover rates among entry- and lower-level employees at the company. The survey aims to gather feedback on employee satisfaction, workplace culture, management, and perceived opportunities for growth in order to identify areas for improvement.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current employees working in entry- and lower-level positions across departments.
+Sampling frame: The company’s internal employee database filtered by job level and time at the company (e.g., employees with less than 2 years of employment in entry-level roles).
+Sampling units: Individual employees within the sampling frame
+Observational units: The number of employees who respond to this survey.
+Sampling strategy: Stratified random sampling, ensuring representation from different departments.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you been working at the company?
+    * Less than 3 months
+    * 3-6 months
+    * 6-12 months
+    * 1-2 years
+    * More than 2 years
+
+2. How satisfied are you with your current role?
+    * Very satisfied
+    * Somewhat satisfied
+    * Neutral
+    * Somewhat dissatisfied
+    * Very dissatisfied
+
+3. To what extent do you agree with the following statement: "I see opportunities for career growth at this company."
+    * Strongly agree
+    * Agree
+    * Neutral
+    * Disagree
+    * Strongly disagree
+
+3. How would you rate the quality of onboarding and training you recieved when you joined?
+    * Excellent
+    * Good
+    * Fair
+    * Poor
+    * Very poor
+    
+5. Do you feel recognized for your contributions at work?
+    * Always
+    * Often
+    * Sometimes
+    * Rarely
+    * Never
+
+6. How supported do you feel by your direct supervisor?
+    * Very supported
+    * Somewaht supported
+    * Neutral
+    * Not very supported
+    * Not supported at all
+
+7. Which of the following factors would most influence your decision to leave the company? (Select up to 2)
+    * Compensation and benefits
+    * Lack of career advancement
+    * Workload
+    * Company culture
+    * Work-life balance
+    * Other (Please specify)
+
+8. What is one thing the company could change to improve your work experiment? (Open-ended text answer)
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +117,43 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type: 
+Stratified design employing probability sampling. The stratification is done geographically by province/census metropolitan area, and then each strata is randomly sampled.
+
+2. Sample size: 20,950
+
+3. Target population: 
+All people 15 years old and older living in the 10 provinces in Canada, who are not living in institutions.
+
+4. Sampling frame: 
+One or several telephone numbers associated with a single address based on the Census and administrative sources from Statictics Canada's dwelling frame.
+
+5. Survey mode(s): 
+The survey is delivered either through an electronic questionnaire or over the telephone, with an average time of 44 minutes to complete.
+
+6. Timeline: 
+September to December of 2018
+
+7. Response rate: 
+41.8 %
+
+8. Weights: 
+Each person in the sample represents a larger number of people in the population, and the weights are adjusted to ensure that characteristics of the sample represent the population.
+
+9. Data processing: 
+Data processing uses the Social Survey Processing Environment (SSPE), which is a software program that follows a series of steps to process the data. 
+
+10. Cleaning, imputation, etc: 
+Edits were made to the data both automatically and manually to ensure respondents followed the correct path and fix off-path situation. Error detection was done through the CATI system, which allowed a valid range of codes for each question and identified any out-of-range values. Imputations were made using a score function to determine the "nearest" donor record to fill in the missing information.
+
+11. Sources of error: 
+Sampling error, inaccurate and incomplete answers, imperfect coverage of the population, and non-response.
+
+12. Limitations, known biases, etc:
+Non-response bias was a known limitation and was reduced by invovling a series of adjustments to the survey weights to account for non-response as much as possible.
+
+13. Link to documentation and any additional sources used
+https://www150.statcan.gc.ca/n1/pub/89-653-x/2013002/05-eng.htm#a52
 ```
 
 ## Rubric
