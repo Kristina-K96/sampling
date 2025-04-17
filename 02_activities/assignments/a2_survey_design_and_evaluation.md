@@ -42,40 +42,74 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 
 The number of your chosen topic: `#1`
 
-You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
-
 Describe the purpose of your survey:
 ```
-The purpose of this survey is to determine what factors affect turnover rates for entry and low-level employees at the company. A random stratified sampling strategy will be used to sample from employees at entry and low levels. 
-
+The purpose of this survey is to better understand the reasons behind the high turnover rates among entry- and lower-level employees at the company. The survey aims to gather feedback on employee satisfaction, workplace culture, management, and perceived opportunities for growth in order to identify areas for improvement.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-Target population: Current employees at the company.
-Sampling frame: entry- and low-level employees
-Sampling units: 
-Observational units: the number of total respondents
-Sampling strategy: Random stratified sampling
+Target population: All current employees working in entry- and lower-level positions across departments.
+Sampling frame: The company’s internal employee database filtered by job level and time at the company (e.g., employees with less than 2 years of employment in entry-level roles).
+Sampling units: Individual employees within the sampling frame
+Observational units: The number of employees who respond to this survey.
+Sampling strategy: Stratified random sampling, ensuring representation from different departments.
 ```
 
 Your 5-10 question survey:
 ```
-1. What level is your current role? (drop down with options)
-2. What deparment is your role in? (drop dowm with options)
-3. How long have you been in your current role?
-    a. 0 - 6 months
-    b. 6 months - 1 year
-    c. 1 - 3 years
-    d. 3 years +
-4. How satisfied with your current role are you?
+1. How long have you been working at the company?
+    * Less than 3 months
+    * 3-6 months
+    * 6-12 months
+    * 1-2 years
+    * More than 2 years
+
+2. How satisfied are you with your current role?
+    * Very satisfied
+    * Somewhat satisfied
+    * Neutral
+    * Somewhat dissatisfied
+    * Very dissatisfied
+
+3. To what extent do you agree with the following statement: "I see opportunities for career growth at this company."
+    * Strongly agree
+    * Agree
+    * Neutral
+    * Disagree
+    * Strongly disagree
+
+3. How would you rate the quality of onboarding and training you recieved when you joined?
+    * Excellent
+    * Good
+    * Fair
+    * Poor
+    * Very poor
     
-5. 
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+5. Do you feel recognized for your contributions at work?
+    * Always
+    * Often
+    * Sometimes
+    * Rarely
+    * Never
+
+6. How supported do you feel by your direct supervisor?
+    * Very supported
+    * Somewaht supported
+    * Neutral
+    * Not very supported
+    * Not supported at all
+
+7. Which of the following factors would most influence your decision to leave the company? (Select up to 2)
+    * Compensation and benefits
+    * Lack of career advancement
+    * Workload
+    * Company culture
+    * Work-life balance
+    * Other (Please specify)
+
+8. What is one thing the company could change to improve your work experiment? (Open-ended text answer)
+
 ```
 
 ## Part B - Survey Evaluation:
